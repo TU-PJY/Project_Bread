@@ -3,7 +3,7 @@
 
 //////////////////////////////////// Window options
 // window name
-constexpr const char* WINDOW_NAME = "mata_SDK";
+constexpr const char* WINDOW_NAME = "Rythm Bread";
 
 // window size
 constexpr int WINDOW_WIDTH = 1200;
