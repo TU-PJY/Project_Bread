@@ -80,7 +80,7 @@ bool TimerUtil::CheckMiliSec(GLfloat DestTime, int DemicalPlace, int CheckOption
 
 
 void Metronome::SetBPM(int BPM) {
-	BeatInterval = 60.0 / (GLdouble)BPM;
+	BeatInterval = 60.0 / (GLfloat)BPM;
 }
 
 void Metronome::Update(float FT) {
@@ -88,7 +88,7 @@ void Metronome::Update(float FT) {
 		Time += FT;
 
 		if (Time >= BeatInterval) {
-			GLdouble OverTime = Time - BeatInterval;
+			GLfloat OverTime = Time - BeatInterval;
 			Time = OverTime;
 			BeatState = true;
 		}

@@ -85,6 +85,12 @@ public:
 	// FPS indicator function
 	virtual void RenderIndicator() {}
 
+	// 메트로놈 함수
+	virtual bool GetIsBeat() { return {}; }
+
+	// 죠안 함수
+	virtual void SetCreateAble() {}
+
 private:
 	glm::vec4 ViewportPosition();
 	glm::vec4 LocalPosition();

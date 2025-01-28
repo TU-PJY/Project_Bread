@@ -2,6 +2,7 @@
 #include <ModeHeader.h>
 
 #include "MetronomePlayer.h"
+#include "Joanne.h"
 
 class Play_Mode {
 public:
@@ -25,6 +26,9 @@ public:
 
 		// ¸ÞÆ®·Î³ð °´Ã¼
 		scene.AddObject(new MetronomePlayer, "metronome", LAYER1);
+
+		// ÁÒ¾È
+		scene.AddObject(new Joanne, "joanne", LAYER2);
 
 		SetUp();
 	}

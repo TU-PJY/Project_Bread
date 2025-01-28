@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Script>
+    <Pattern1 Beat1="0.5" Beat2="0.5" Beat3="0.5" Beat4="0.5" />
+    <Pattern2 Beat1="0.5" Beat2="0.25" Beat3="0.25" Beat4="0.5" Beat5="0.5" />
+    <Pattern3 Beat1="0.25" Beat2="0.5" Beat3="0.25" Beat4="0.25" Beat5="0.25" Beat6="0.5" />
+    <Pattern4 Beat1="0.25" Beat2="0.25" Beat3="0.5" Beat4="0.25" Beat5="0.25" Beat6="0.25" Beat7="0.25" />
+    <Pattern5 Beat1="0.25" Beat2="0.25" Beat3="0.25" Beat4="0.25" Beat5="0.25" Beat6="0.25" Beat7="0.25" Beat8="0.25" />
+    <Pattern6 Beat1="0.5" Beat2="0.25" Beat3="0.25" Beat4="0.25" Beat5="0.25" Beat6="0.5" />
+    <Pattern7 Beat1="0.5" Beat2="0.25" Beat3="0.25" Beat4="0.5" Beat5="0.25" Beat6="0.25" />
+    <Pattern8 Beat1="0.5" Beat2="0.125" Beat3="0.125" Beat4="0.5" Beat5="0.25" Beat6="0.125" Beat7="0.125" />
+    <Pattern9 Beat1="0.25" Beat2="0.25" Beat3="0.25" Beat4="0.125" Beat5="0.125" Beat6="0.25" Beat7="0.25" Beat8="0.25" />
+    <Pattern10 Beat1="0.25" Beat2="0.125" Beat3="0.125" Beat4="0.25" Beat5="0.125" Beat6="0.125" Beat7="0.25" Beat8="0.125" Beat9="0.125" />
+    <Pattern11 Beat1="0.125" Beat2="0.125" Beat3="0.25" Beat4="0.125" Beat5="0.125" Beat6="0.125" Beat7="0.25" Beat8="0.125" Beat9="0.125" />
+    <Pattern12 Beat1="0.125" Beat2="0.125" Beat3="0.125" Beat4="0.125" Beat5="0.125" Beat6="0.125" Beat7="0.125" Beat8="0.125" Beat9="0.125" Beat10="0.125" Beat11="0.125" Beat12="0.125" />
+</Script>

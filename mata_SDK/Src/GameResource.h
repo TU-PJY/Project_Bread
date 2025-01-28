@@ -12,8 +12,14 @@ public:
 // Declare the sound resource here. 
 class SoundResource {
 public:
-	SoundChannel MetronomeChannel{};
+	// 드럼
+	Sound DrumHigh{}, DrumLow{};
+	
+	// 메트로놈 
 	Sound MetronomeHigh{}, MetronomeLow{};
+
+	// 죠안
+	Sound BBang{};
 };
 
 // Data Format list
@@ -27,17 +33,19 @@ public:
 // Decalre the data resource here.
 class DataResource {
 public:
-
+	ScriptUtil RhythmPatternScript{};
 };
 
 // Declare the global value here.
 class GlobalResource {
 public:
-
+	// 게임 전체 공유 시간
+	GLfloat ElapsedTime{};
 };
 
 class TextResource {
 public:
+
 };
 
 extern ImageResource Img;
