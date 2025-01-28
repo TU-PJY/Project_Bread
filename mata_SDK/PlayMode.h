@@ -1,6 +1,8 @@
 #pragma once
 #include <ModeHeader.h>
 
+#include "MetronomePlayer.h"
+
 class Play_Mode {
 public:
 	// define mode name and mode type here
@@ -20,7 +22,9 @@ public:
 
 	static void Start() {
 		System.SetBackColor(0.3, 0.3, 0.3);
-		// Add task here
+
+		// ¸ÞÆ®·Î³ð °´Ã¼
+		scene.AddObject(new MetronomePlayer, "metronome", LAYER1);
 
 		SetUp();
 	}

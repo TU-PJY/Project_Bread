@@ -1,6 +1,8 @@
 #include "GameResource.h"
 #include "Config.h"
 
+#include <Soundutil.h>
+
 // Use LoadT(), LoadClipT(), and LoadSpriteSheetT() to load image files and sprite sheets in this thread.
 DWORD WINAPI ImageResourceLoader(LPVOID lpParam) {
 	// load image resources here
@@ -9,8 +11,8 @@ DWORD WINAPI ImageResourceLoader(LPVOID lpParam) {
 }
 
 DWORD WINAPI SoundResourceLoader(LPVOID lpParam) {
-	// load sound resources here
-
+	soundUtil.Load(Snd.MetronomeLow, "Assets//Sound//Metronome//metronome_low.wav");
+	soundUtil.Load(Snd.MetronomeHigh, "Assets//Sound//Metronome//metronome_high.wav");
 	return 0;
 }
 

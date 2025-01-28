@@ -184,7 +184,8 @@
     <ClCompile Include="Src\UiUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameMode1.h" />
+    <ClInclude Include="MetronomePlayer.h" />
+    <ClInclude Include="PlayMode.h" />
     <ClInclude Include="Src\AnimationUtil.h" />
     <ClInclude Include="Src\CameraController.h" />
     <ClInclude Include="Src\CameraUtil.h" />

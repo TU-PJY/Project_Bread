@@ -12,7 +12,8 @@ public:
 // Declare the sound resource here. 
 class SoundResource {
 public:
-
+	SoundChannel MetronomeChannel{};
+	Sound MetronomeHigh{}, MetronomeLow{};
 };
 
 // Data Format list

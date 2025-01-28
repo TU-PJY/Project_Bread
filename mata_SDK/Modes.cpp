@@ -1,4 +1,4 @@
-#include "GameMode1.h"
+#include "PlayMode.h"
 
 //////////////////////////////////// Start Mode Option
 // Specifies the mode to run first when the program starts.

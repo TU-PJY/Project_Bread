@@ -148,6 +148,9 @@
     <Filter Include="[5]___________[ System ]\[ Util ]\[ UI Util ]\[0] [ Pack ]">
       <UniqueIdentifier>{38262568-5f1a-4ff0-9a03-cc13df33dcd9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="[2]___________[ Object ]\[ Metronome Player ]">
+      <UniqueIdentifier>{d45edcfb-4e4c-4fd4-8543-746ca88e6440}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\AnimationUtil.cpp">
@@ -401,7 +404,7 @@
     <ClInclude Include="Src\LoadingScreen.h">
       <Filter>[5]___________[ System ]\[ System Object ]</Filter>
     </ClInclude>
-    <ClInclude Include="GameMode1.h">
+    <ClInclude Include="PlayMode.h">
       <Filter>[1]___________[ GameMode ]</Filter>
     </ClInclude>
     <ClInclude Include="Src\SystemText.h">
@@ -409,6 +412,9 @@
     </ClInclude>
     <ClInclude Include="Src\ModeHeader.h">
       <Filter>[1]___________[ GameMode ]\[0]_Mode Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MetronomePlayer.h">
+      <Filter>[2]___________[ Object ]\[ Metronome Player ]</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
