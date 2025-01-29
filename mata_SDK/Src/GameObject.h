@@ -89,7 +89,7 @@ public:
 	virtual bool GetIsBeat() { return {}; }
 
 	// 죠안 함수
-	virtual void SetCreateAble() {}
+	virtual void AdjustSpeed(float Value) {}
 
 private:
 	glm::vec4 ViewportPosition();

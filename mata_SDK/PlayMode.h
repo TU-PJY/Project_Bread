@@ -2,8 +2,6 @@
 #include <ModeHeader.h>
 
 #include "MetronomePlayer.h"
-#include "Joanne.h"
-
 class Play_Mode {
 public:
 	// define mode name and mode type here
@@ -16,7 +14,7 @@ public:
 	// type object tag to input device event
 	std::vector<std::string> InputObjectTag
 	{
-
+		"metronome"
 	};
 
 	/////////////////////////////////////////////////////////////
@@ -26,9 +24,6 @@ public:
 
 		// ¸ÞÆ®·Î³ð °´Ã¼
 		scene.AddObject(new MetronomePlayer, "metronome", LAYER1);
-
-		// ÁÒ¾È
-		scene.AddObject(new Joanne, "joanne", LAYER2);
 
 		SetUp();
 	}

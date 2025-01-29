@@ -12,14 +12,8 @@ public:
 // Declare the sound resource here. 
 class SoundResource {
 public:
-	// 드럼
-	Sound DrumHigh{}, DrumLow{};
-	
-	// 메트로놈 
-	Sound MetronomeHigh{}, MetronomeLow{};
-
-	// 죠안
-	Sound BBang{};
+	// bgm
+	Sound BGM{};
 };
 
 // Data Format list
@@ -33,7 +27,7 @@ public:
 // Decalre the data resource here.
 class DataResource {
 public:
-	ScriptUtil RhythmPatternScript{};
+
 };
 
 // Declare the global value here.
